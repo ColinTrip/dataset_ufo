@@ -1,13 +1,15 @@
-# Mike Colbert
-# 11/07/2023
-# Integrate monthly UFO data into a single file
-
+#Colin Triplett
+# 11/12/2023
+# Homework 5
+#setwd("C:/Users/bubba/OneDrive/Documents/A - Data Wrangling/ufo") #Where I store my files
 rm(list=ls())
 
 # Load libraries
 # library(readr)
+#install.packages("readr")
+library(readr)
 
-setwd("./monthly_sightings")
+
 getwd()
 
 csv_files <- list.files(pattern = ".csv")
